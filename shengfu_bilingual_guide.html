@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聖福宮神祇雙語導覽 - Shengfu Temple Deity Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+TC:wght@400;700&display=swap');
+        body {
+            font-family: 'Noto Sans TC', 'Inter', sans-serif;
+            background-color: #f7f3e8;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 700px;
+        }
+        .deity-card {
+            background-color: #ffffff;
+            border-left: 5px solid #d9534f; /* Auspicious Red accent */
+        }
+        .deity-name-zh {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #8b0000; /* Dark Red */
+        }
+        .deity-name-en {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #a0522d; /* Traditional Brown */
+        }
+        .content-block {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #fffaf0; /* Lightest background for text */
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-8">
+
+    <div class="container mx-auto rounded-xl shadow-2xl p-6 bg-white border-4 border-yellow-700">
+        <header class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-yellow-800 border-b-2 border-yellow-700 pb-2">竹南聖福宮神祇雙語導覽</h1>
+            <p class="text-xl text-gray-600 mt-2">Shengfu Temple Deity & Culture Guide</p>
+        </header>
+
+        <!-- 福德正神 (Lord Earth God) -->
+        <section id="fude" class="deity-card p-4 mb-6 rounded-lg shadow-md">
+            <div class="deity-name-zh">福德正神 (Lord Earth God)</div>
+            <p class="deity-name-en">Fu De Zheng Shen</p>
+            <div class="content-block">
+                <p class="mb-2">**福德正神**，俗稱**伯公**或**土地公**，是華人信仰中最普遍且親近百姓的神祇。</p>
+                <p class="text-sm text-gray-700 italic">**Fu De Zheng Shen (Lord Earth God)** is the most common and accessible deity in Chinese folk religion, affectionately known as **Bo Gong** (Grandpa) or **Tu Di Gong** (Local Earth Deity).</p>
+                
+                <p class="mt-3 mb-2">祂主要職責是**守護土地**、**庇佑農作豐收**與**地方平安**。同時，由於土地能生財，祂也被視為**財神**，主掌財富與事業興旺。</p>
+                <p class="text-sm text-gray-700 italic">His primary duty is to **protect the land**, ensure **bountiful harvests**, and maintain **local peace**. Due to his close connection with the earth's resources, he is also widely revered as a **God of Wealth**, overseeing prosperity and business success.</p>
+            </div>
+        </section>
+
+        <!-- 天上聖母 (Mazu) -->
+        <section id="mazu" class="deity-card p-4 mb-6 rounded-lg shadow-md">
+            <div class="deity-name-zh">天上聖母 (Goddess of the Sea)</div>
+            <p class="deity-name-en">Mazu / Tian Shang Sheng Mu</p>
+            <div class="content-block">
+                <p class="mb-2">**天上聖母**，俗稱**媽祖**或**天后**，是華人信仰中最主要且影響力最大的**海神**。</p>
+                <p class="text-sm text-gray-700 italic">**Tian Shang Sheng Mu (Mazu / Goddess of the Sea)** is the principal and most influential **Goddess of the Sea** in Chinese folk religion.</p>
+                
+                <p class="mt-3 mb-2">祂的歷史原型是宋代福建的**林默娘**。媽祖因具有神力，常在海上風浪中救助遇難的漁民和船隻，因而被尊奉為海上的守護神。</p>
+                <p class="text-sm text-gray-700 italic">Her historical figure is **Lin Mo-niang** from the Song Dynasty in Fujian. Mazu is revered as the guardian of the seas for her divine power in rescuing distressed seafarers and ships during storms.</p>
+            </div>
+        </section>
+
+        <!-- 文昌帝君 (Emperor Wenchang) -->
+        <section id="wenchang" class="deity-card p-4 mb-6 rounded-lg shadow-md">
+            <div class="deity-name-zh">文昌帝君 (God of Culture and Literature)</div>
+            <p class="deity-name-en">Emperor Wenchang (Wenchang Dijun)</p>
+            <div class="content-block">
+                <p class="mb-2">**文昌帝君**，是華人信仰中主掌**功名利祿**、**考試運途**和**文學寫作**的神祇。</p>
+                <p class="text-sm text-gray-700 italic">**Emperor Wenchang (Wenchang Dijun)** is the deity in Chinese folk religion who governs **scholarly success**, **examination fortune**, and **literary writing**.</p>
+                
+                <p class="mt-3 mb-2">祂專門**庇佑學子**在各項考試中順利通過，金榜題名，並啟發文人靈感，創作優秀作品。</p>
+                <p class="text-sm text-gray-700 italic">He specifically **blesses students** to succeed in various examinations and inspires scholars to create excellent literary works.</p>
+            </div>
+        </section>
+
+        <footer class="text-center text-sm text-gray-500 pt-4 border-t mt-6">
+            <p>© 竹南聖福宮管理委員會 All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
